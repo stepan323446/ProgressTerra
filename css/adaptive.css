@@ -192,6 +192,7 @@
     .answer {
         max-width: 590px;
         margin-bottom: 49px;
+        width: auto;
     }
     .our-answers-row {
         margin-bottom: 0;
@@ -296,11 +297,15 @@
         top: 115px;
         right: 55px;
     }
+    .background-main__right {
+        width: 212px;
+        height: 467px;
+    }
 }
 @media only screen and (max-width: 765px) {
-    h3
+    .mobile-text h3
     {
-        font-size: 18px;
+        font-size: 22px;
     }
     .base-collection__flexbox .collect:nth-child(-n + 3) {
         width: 250px !important;
@@ -316,7 +321,230 @@
         bottom: -75px;
     }
 }
+}
+@media only screen and (max-width: 690px)
+{
+    
+    .background-main__dotes
+    {
+        right: -90px;
+    top: -51px;
+    }
+}
 @media only screen and (max-width: 590px) {
+    header {
+        top: 0;
+        left: 0;
+        background-image: url(../img/header-mobile.svg);
+    }
+    .btn
+    {
+        font-size: 20px;
+        padding: 5px 0px;
+        border-radius: 8px;
+    }
+    .btn-title-mob
+    {
+        max-width: 201px;
+    }
+    .title-section__inner
+    {
+        margin-top: 0px !important;
+    }
+    .header__burger {
+        left: 25px;
+    top: 57px;
+        width: 34px;
+        height: 28px;
+    }
+    .header__burger span {
+        height: 6px;
+        top: 11px;
+    }
+    .header__burger::before,
+    .header__burger::after
+    {
+        height: 6px;
+    }
+    .header__burger.header__burger.active::before
+    {
+        top: 14px;
+    }
+    .header-nav li
+    {
+        margin-bottom: 10px;
+    }
+    .header-nav ul li a
+    {
+        font-size: 30px !important; 
+    }
+    .background-main__dotes
+    {
+        width: 130px;
+    height: 155px;
+    right: 0;
+    top: 0;
+    }
+    .background-main__right {
+        width: 75px;
+        height: 209px;
+    }
+    .title-section__text
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .title-section__decoration
+    {
+        position: absolute;
+        top: 125px;
+        right: -1px;
+    }
+    .title-section__decoration-dotes
+    {
+        top: 18px;
+        left: 12px;
+    }
+    .title-section__decoration-dotes div img:first-child
+    {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .title-section__decoration-dotes div img
+    {
+        width: 40px !important;
+        height: 40px !important;
+    }
+    .title-section__decoration-dotes > img
+    {
+        top: auto;
+        bottom: -237px;
+        left: auto;
+        right: -66px;
+    }
+    h1, h2
+    {
+        font-size: 32px;
+        line-height: 32px;
+    }
+    h3
+    {
+        font-size: 18px;
+    }
+    body
+    {
+        font-size: 16px;
+    }
+
+    .mobile-text
+    {
+        max-width: 278px;
+        bottom: -130px;
+    }
+    .mobile-text h3
+    {
+        font-size: 18px;
+        color: #4F4F4F;
+    }
+
+    .background-main__logo
+    {
+        width: 109px;
+        height: 62px;
+    }
+    .title-section__info h1
+    {
+        max-width: 152px;
+    }
+
+    .answer-cloud
+    {
+        margin: 0;
+        color: #4F4F4F;
+        
+    }
+    .answer-cloud div
+    {
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 700;
+        max-width: 175px;
+        margin-left: 17px;
+    }
+    .answer-cloud img
+    {
+        width: 241px;
+        height: 241px;
+        top: -99px;
+    right: -18px;
+    }
+    .our-answers-inner
+    {
+        margin-top: 168px;
+    }
+    .our-answers-block
+    {
+        margin-top: 120px;
+    }
+
+    
+    .our-answer-title
+    {
+        margin-bottom: 38px;
+    }
+    .answer-header img
+    {
+        width: 77px;
+        height: 65px;
+    }
+    .answer-header h3
+    {
+        width: 223px;
+    }
+    .btn-answer
+    {
+        margin-top: 0;
+        width: 100%;
+    }
+    .btn-row-answer div:first-child
+    {
+        display: none;
+    }
+
+    .who-me
+    {
+        margin-top: 42px;
+    }
+    .who-me h2
+    {
+        margin-bottom: 44px;
+    }
+    .webSite-about__inner
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .contact-block__text
+    {
+        text-align: center;
+    }
+    .contact-block__text a
+    {
+        width: 145px;
+        white-space: normal;
+        margin-top: 22px;
+    }
+    .contact-block__text a::after
+    {
+        width: 20px;
+        height: 20px;
+        right: -14px;
+        background-size: contain;
+    }
+    .checkbox-div
+    {
+        display: flex;
+    }
     .also-avaible__flexbox
     {
         justify-content: space-between;
