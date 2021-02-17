@@ -19,7 +19,11 @@
     html.lock {
         overflow: hidden;
     }
-
+    .background-main__dotes
+    {
+        right: -80px;
+        top: 0;
+    }
     .background-main__logo {
         right: 30px;
         top: 30px;
