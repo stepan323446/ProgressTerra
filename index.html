@@ -33,12 +33,15 @@
         <img style="z-index: 4;" class="background-main__logo" src="img/logo.svg">
 
         </svg>
-        
+
         <header>
             <div class="container">
                 <div class="header-inner">
                     <div class="header-inner-round">
 
+                    </div>
+                    <div class="header__burger">
+                        <span></span>
                     </div>
                     <nav class="header-nav">
                         <ul>
@@ -51,7 +54,7 @@
             </div>
         </header>
 
-        <section class="title-section" >
+        <section class="title-section">
             <div class="container">
                 <div class="title-section__inner">
                     <div class="title-section__info">
@@ -69,21 +72,28 @@
 
                         <a href="#" style="z-index: 5;" class="btn btn-white">Оставить заявку</a>
                     </div>
-                    <div class="title-section__decoration-dotes">
-                        <div>
-                            <img src="img/dotes-decoration.svg" alt="">
+
+                    <div class="title-section__decoration" style="z-index: 5;">
+
+                        <div class="title-section__decoration-dotes">
+                            <div>
+                                <img src="img/dotes-decoration.svg" alt="">
+                                <img src="img/dotes-decoration.svg" alt="">
+                            </div>
                             <img src="img/dotes-decoration.svg" alt="">
                         </div>
-                        <img src="img/dotes-decoration.svg" alt="">
-                    </div>
-                    <div class="title-section__decoration" style="z-index: 5;">
                         <img src="img/phone-decoration.svg" alt="">
                     </div>
                 </div>
             </div>
         </section>
-        <svg class="svg__bottom" style="position: absolute;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-            viewBox="0 0 2880 583" style="z-index: 1;">
+        <div class="mobile-text">
+            <h3>
+                Всего за 1 месяц вы получите мобильные приложения для общения с вашими клиентами и роста продаж!
+            </h3>
+        </div>
+        <svg class="svg__bottom" style="position: absolute;" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2880 583" style="z-index: 1;">
             <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
                 d="M3104.000,306.000 C3104.000,306.000 2489.262,-430.916 1068.000,385.000 C425.806,753.670 -32.000,464.000 -32.000,464.000 L-84.000,745.000 L3242.000,935.000 L3104.000,306.000 Z" />
         </svg>
@@ -102,7 +112,7 @@
 
                 </div>
                 <div class="our-answers-block">
-                    <div class="our-answers-row" style="margin-bottom: 0px;">
+                    <div class="our-answers-row first-answer-row" style="margin-bottom: 0px;">
                         <div style="width: 520px;"></div>
                         <div style="width: 520px;">
                             <h2 class="our-answer-title">Наши 6 ответов</h2>
@@ -112,8 +122,11 @@
 
                     <div class="our-answers-row">
                         <div class="answer">
-                            <img src="img/answer1.svg" alt="">
-                            <h3 class="header-black">Станьте ближе для клиента</h3>
+                            <div class="answer-header">
+                                <img src="img/answer1.svg" alt="">
+                                <h3 class="header-black">Станьте ближе для клиента</h3>
+                            </div>
+
                             <div>
                                 Приложение – это не сайт, адрес которого надо еще запомнить, чтобы загуглить. Клиент
                                 захотел купить ваш товар или заказать еду – приложение всегда под рукой, точнее в
@@ -121,9 +134,10 @@
                             </div>
                         </div>
                         <div class="answer">
-
-                            <img src="img/answer2.svg" alt="">
-                            <h3 class="header-black">Скажите нет корзине СПАМ, которой нет в телефоне!</h3>
+                            <div class="answer-header">
+                                <img src="img/answer2.svg" alt="">
+                                <h3 class="header-black">Скажите нет корзине СПАМ, которой нет в телефоне!</h3>
+                            </div>
                             <div>
                                 Будьте удобными! Отправленный короткий push виден даже на заблокированном экране и его
                                 можно прочитать, не трогая телефон!
@@ -132,8 +146,10 @@
                     </div>
                     <div class="our-answers-row">
                         <div class="answer">
-                            <img src="img/answer3.svg" alt="">
-                            <h3 class="header-black">Скажите нет безумным бюджетам на таргетинг!</h3>
+                            <div class="answer-header">
+                                <img src="img/answer3.svg" alt="">
+                                <h3 class="header-black">Скажите нет безумным бюджетам на таргетинг!</h3>
+                            </div>
                             <div>
                                 Дайте актуальную информацию. У вас новинки в ассортименте или меню, новая акция или
                                 распродажа, открылся новый магазин или кафе? Клиент может это узнать в режиме реального
@@ -141,8 +157,10 @@
                             </div>
                         </div>
                         <div class="answer">
-                            <img src="img/answer4.svg" alt="">
-                            <h3>Скажите нет неработающим Email рассылкам!</h3>
+                            <div class="answer-header">
+                                <img src="img/answer4.svg" alt="">
+                                <h3>Скажите нет неработающим Email рассылкам!</h3>
+                            </div>
                             <div>
                                 Общайтесь с клиентами. Запрашивайте у них отзывы, просите поделиться фото понравившегося
                                 товара/блюда в социальных сетях и т.д. Управляйте своей репутацией!
@@ -151,8 +169,10 @@
                     </div>
                     <div class="our-answers-row">
                         <div class="answer">
-                            <img src="img/answer5.svg" alt="">
-                            <h3 class="header-black">Скажите нет неэффективным опросникам! </h3>
+                            <div class="answer-header">
+                                <img src="img/answer5.svg" alt="">
+                                <h3 class="header-black">Скажите нет неэффективным опросникам! </h3>
+                            </div>
                             <div>
                                 Продавайте регулярно. Значок вашего приложения на экране телефона – это приглашение
                                 зайти на огонек и посмотреть, что есть нового. Клиент заходит в ваше приложение – видит
@@ -160,10 +180,12 @@
                             </div>
                         </div>
                         <div class="answer">
-                            <img src="img/answer6.svg" alt="">
-                            <h3 class="header-black">Скажите нет единичным продажам!</h3>
+                            <div class="answer-header">
+                                <img src="img/answer6.svg" alt="">
+                                <h3 class="header-black">Скажите нет единичным продажам!</h3>
+                            </div>
                             <div>
-                                Для тех, кого убеждают цифры: на 74% Push-уведомления превышают конверсию, чем почтовые
+                                Для тех, кого убеждают цифры: На 36% Push-уведомления превышают конверсию, чем почтовые
                                 рассылки и SMS-уведомления в 3 раза конверсия в мобильных приложениях для
                                 шоппинга превышает аналогичный показатель в мобильных браузерах. на 36% увеличивается
                                 база лояльных клиентов.
@@ -173,7 +195,7 @@
 
                 </div>
 
-                <div class="our-answers-row">
+                <div class="our-answers-row btn-row-answer">
                     <div class="answer"></div>
                     <div class="answer btn-answer">
                         <a href="#" class="btn">Оставить заявку</a>
@@ -185,11 +207,12 @@
 
     <section class="who-me">
         <div class="main-container">
+            <h2>
+                Кто мы?
+            </h2>
             <div class="who-me__inner">
                 <div class="who-me__block">
-                    <h2>
-                        Кто мы?
-                    </h2>
+
                     <div>
                         Мы – команда ИТ-компании «Прогресс Терра», которая создала свою платформу мобильных приложений
                         для магазинов, интернет-магазинов, кафе и ресторанов.<br><br>
@@ -266,25 +289,25 @@
             <div class="main-container">
                 <div class="base-collection__inner">
                     <div class="base-collection__adv__block">
-                        <h3 class="header-black base-collection__text">
+                        <h3 class="header-black base-collection__text bc-header">
                             Всего за <span><span class="main-number">290 000</span> рублей</span><br>
                             Вы получаете <span>2 мобильных приложения,</span><br> в которые входят:
                         </h3>
                     </div>
                     <div class="base-collection__flexbox">
-                        <div class="collect collect-main">
+                        <div class="collect">
                             <img src="img/base-collection/package1.svg" alt="">
                             <div>
                                 Возможность оформления заказов и приема платежей
                             </div>
                         </div>
-                        <div class="collect collect-main">
+                        <div class="collect">
                             <img src="img/base-collection/avatar.svg" alt="">
                             <div>
                                 Возможность регистрации и аутентификации пользователей по номеру телефона
                             </div>
                         </div>
-                        <div class="collect collect-main">
+                        <div class="collect">
                             <img src="img/base-collection/list.svg" alt="">
                             <div>
                                 Разделы «Отзывы», «FAQ», «История покупок», «Список и карта всех магазинов/кафе».
@@ -317,18 +340,18 @@
                         </div>
                     </div>
                     <div class="testing__block">
-                        <h3 class="header-black">Протестируйте функционал вашего мобильного приложения</h3>
+                        <h3 class="header-black bc-header">Протестируйте функционал вашего мобильного приложения</h3>
                         <a href="#" class="btn">Тестировать</a>
                     </div>
                 </div>
             </div>
             <svg class="svg__bottom" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-            viewBox="0 0 2884 421">
-            <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
-                d="M1.000,181.000 C1.000,181.000 286.345,6.719 732.000,1.000 C877.322,-0.865 1062.919,-3.803 1228.000,38.000 C1667.033,149.174 2136.749,337.977 2468.000,348.000 C2743.332,356.331 2884.000,128.000 2884.000,128.000 L2884.000,421.000 L-0.000,421.000 L1.000,181.000 Z" />
-        </svg>
+                viewBox="0 0 2884 421">
+                <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                    d="M1.000,181.000 C1.000,181.000 286.345,6.719 732.000,1.000 C877.322,-0.865 1062.919,-3.803 1228.000,38.000 C1667.033,149.174 2136.749,337.977 2468.000,348.000 C2743.332,356.331 2884.000,128.000 2884.000,128.000 L2884.000,421.000 L-0.000,421.000 L1.000,181.000 Z" />
+            </svg>
         </div>
-        
+
     </section>
     <section class="also-avaible">
         <div class="main-container">
@@ -337,6 +360,7 @@
                     Также всегда доступно для подключения
                 </h2>
                 <div class="also-avaible__flexbox">
+
                     <div class="avaible-item">
                         <img src="img/avaible-items/bonus.svg" alt="">
                         <div>
@@ -349,6 +373,8 @@
                             Элементы геймификации
                         </div>
                     </div>
+
+
                     <div class="avaible-item">
                         <img src="img/avaible-items/ok.svg" alt="">
                         <div>
@@ -361,22 +387,28 @@
                             Реферальная система
                         </div>
                     </div>
+
+
                     <div class="avaible-item">
                         <img src="img/avaible-items/promotion.svg" alt="">
                         <div>
                             Система промокодов
                         </div>
                     </div>
+
+
                 </div>
             </div>
         </div>
     </section>
 
     <footer>
-        <svg class="svg-up__relative" style="margin-bottom: 64px;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"viewBox="0 0 2880 370">
+        <svg class="svg-up__relative" style="margin-bottom: 64px;" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2880 370">
             <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
                 d="M-0.000,164.000 L-0.000,-0.000 L2880.000,-0.000 L2880.000,296.000 C2880.000,296.000 2663.861,204.202 2438.000,221.000 C2064.538,248.775 1520.298,391.030 996.000,367.000 C480.347,343.366 -0.000,164.000 -0.000,164.000 Z" />
         </svg>
+        <img class="background-main__logo footer-logo" src="img/logo.svg" alt="">
         <div class="main-container">
             <div class="footer__contact-us">
                 <div class="footer-map">
@@ -390,7 +422,7 @@
                 </div>
             </div>
             <div class="footer_c">
-                © 2018 Progress Terra
+                © 2021 Progress Terra
             </div>
         </div>
     </footer>
