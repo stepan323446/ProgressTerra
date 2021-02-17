@@ -165,6 +165,10 @@ svg
     top: -5px;
     width: 100%;
 }
+.svg-up__collect-mob
+{
+    display: none;
+}
 .header-black {
     color: #333333;
 }
@@ -211,6 +215,10 @@ svg
     position: absolute;
     top: 0px;
     right: 0px;
+}
+.double-dotes-mobile
+{
+    display: none;
 }
 .background-main__logo {
     position: absolute;
