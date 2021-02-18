@@ -555,7 +555,7 @@
     }
     .title-section__info h1
     {
-        max-width: 152px;
+        max-width: 178px;
     }
 
     .answer-cloud
@@ -639,7 +639,7 @@
     {
         font-size: 18px;
         line-height: 22px;
-        
+        margin: 20px 0;
     }
     .contact-block__text
     {
@@ -792,8 +792,8 @@
     }
     .footer-logo
     {
-        top: 63px;
-    right: 35px;
+        top: 48px;
+        right: 15px;
     }
     footer .main-container
     {
@@ -817,7 +817,7 @@
 {
     display: block;
 }
-.svg-up__collect
+.svg-up__wave-hidden
 {
     display: none;
 }
