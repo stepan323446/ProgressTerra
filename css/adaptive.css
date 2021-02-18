@@ -601,9 +601,14 @@
         width: 77px;
         height: 65px;
     }
+    .main-container
+    {
+        padding: 0 24px;
+    }
     .answer-header h3
     {
-        width: 298px;
+        max-width: 303px;
+        margin-left: 13px;
     }
     .btn-answer
     {
@@ -663,6 +668,10 @@
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+    }
+    .base-collection__text
+    {
+        max-width: 234px;
     }
     .base-collection__flexbox .collect:nth-child(-n + 3) {
         width: 100% !important;
@@ -825,8 +834,12 @@
     width: 100%;
     top: -188px;
     right: 0;
-    -ms-flex-item-align: center;
-        align-self: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     max-width: none;
 }
 .base-collection__adv__block h3
