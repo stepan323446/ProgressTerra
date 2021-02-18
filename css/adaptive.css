@@ -675,6 +675,7 @@
     }
     .base-collection__flexbox
     {
+        margin-bottom: 20px;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
@@ -691,6 +692,7 @@
     }
     .collect
     {
+        margin-top: 35px;
         width: 100% !important;
         max-width: -webkit-fit-content;
         max-width: -moz-fit-content;
@@ -811,7 +813,7 @@
         font-size: 20px;
     }
 
-    .svg-up__collect-mob
+    .svg-wave-mob
 {
     display: block;
 }
