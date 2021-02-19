@@ -296,6 +296,8 @@ svg
 }
 .title-section__decoration-dotes div {
     margin-bottom: 28px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .title-section__decoration-dotes div img:first-child {
@@ -341,8 +343,12 @@ svg
     text-align: right;
 }
 .our-answers-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin-bottom: 118px;
     width: 100%;
 }
@@ -351,6 +357,8 @@ svg
 }
 
 .btn-answer {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-top: 110px;
 }
@@ -358,8 +366,22 @@ svg
     margin-top: 204px;
 }
 .who-me__inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.who-me__info
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .who-me__block {
     max-width: 460px;
@@ -369,6 +391,8 @@ svg
     margin-right: 15px;
 }
 .who-me__img {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 

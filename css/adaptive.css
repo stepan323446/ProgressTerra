@@ -252,17 +252,17 @@
         margin-top: 48px;
         width: 100%;
     }
-    .who-me__inner {
+    .who-me__info {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
         -webkit-box-pack: center;
-            -ms-flex-pack: center;
+        -ms-flex-pack: center;
                 justify-content: center;
         -webkit-box-align: center;
-            -ms-flex-align: center;
-                    -ms-grid-row-align: center;
+        -ms-flex-align: center;
+                -ms-grid-row-align: center;
                 align-items: center;
     }
     .who-me__block {
@@ -420,6 +420,9 @@
     input[type=text] {
         height: 48px;
         padding: 12px 32px 12px 32px;
+    }
+    .who-me__inner{
+        justify-content: start;
     }
     .who-me__block
     {
@@ -630,6 +633,7 @@
     .btn-answer
     {
         margin-top: 0;
+        justify-content: center;
         width: 100%;
     }
     .btn-row-answer div:first-child
