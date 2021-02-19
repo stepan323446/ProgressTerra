@@ -418,8 +418,12 @@
         width: 40px;
     }
     input[type=text] {
-        height: 42px;
+        height: 48px;
         padding: 12px 32px 12px 32px;
+    }
+    .btn-contact
+    {
+        height: 48px;
     }
     .who-me__img
     {
@@ -718,17 +722,9 @@
         position: relative;
         margin-top: 35px;
         width: 100% !important;
-        max-width: -webkit-fit-content;
-        max-width: -moz-fit-content;
         max-width: fit-content;
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
                 justify-content: space-between;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
                 align-items: center;
     }
     .collect img
