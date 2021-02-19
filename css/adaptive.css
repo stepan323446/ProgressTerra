@@ -422,7 +422,7 @@
         padding: 12px 32px 12px 32px;
     }
     .who-me__inner{
-        justify-content: start;
+        display: block;
     }
     .who-me__block
     {
@@ -635,6 +635,7 @@
         margin-top: 0;
         justify-content: center;
         width: 100%;
+        margin-bottom: 0;
     }
     .btn-row-answer div:first-child
     {
@@ -643,7 +644,7 @@
 
     .who-me
     {
-        margin-top: 42px;
+        margin-top: 60px;
     }
     .who-me h2
     {
@@ -706,19 +707,7 @@
     .base-collection__flexbox
     {
         margin-bottom: 20px;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        -webkit-box-align: stretch;
-            -ms-flex-align: stretch;
-                    -ms-grid-row-align: stretch;
-                align-items: stretch;
-        -webkit-box-pack: stretch;
-            -ms-flex-pack: stretch;
-                justify-content: stretch;
-        -ms-flex-line-pack:stretch;
-            align-content:stretch;
+        -webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;
     }
     .collect
     {
