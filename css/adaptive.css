@@ -715,6 +715,7 @@
     }
     .collect
     {
+        position: relative;
         margin-top: 35px;
         width: 100% !important;
         max-width: -webkit-fit-content;
