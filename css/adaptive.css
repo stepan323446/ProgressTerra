@@ -408,6 +408,19 @@
     }
 }
 @media only screen and (max-width: 590px) {
+    form
+    {
+        max-width: 327px;
+        -ms-flex-item-align: center;
+            align-self: center;
+    }
+    input[type="checkbox"] {
+        width: 40px;
+    }
+    .who-me__block
+    {
+        margin-top: 20px;
+    }
     .double-dotes-mobile
     {
         display: block;
